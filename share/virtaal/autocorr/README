@@ -1,0 +1,17 @@
+These files provide the data used for the automatic correction in Virtaal. They
+are mostly used verbatim from OpenOffice.org.
+
+You can usually find them in an OpenOffice.org installation in something like
+basis3.1/share/autocorr/
+
+or in the OpenOffice.org source tree in something like
+extras/source/autotext/lang
+
+We might want to look for newer ones from time to time somewhere such as
+http://hg.services.openoffice.org/
+
+Extras:
+lt: http://www.openoffice.org/issues/show_bug.cgi?id=108049
+
+Files in this directory are licensed under the terms of GNU LESSER GENERAL PUBLIC
+LICENSE Version 3.

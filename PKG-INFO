@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: virtaal
+Version: 0.7.0-beta5
+Summary: A tool to create program translations.
+Home-page: http://translate.sourceforge.net/wiki/virtaal/index
+Author: Translate.org.za
+Author-email: translate-devel@lists.sourceforge.net
+License: GNU General Public License (GPL)
+Download-URL: http://sourceforge.net/project/showfiles.php?group_id=91920&package_id=270877
+Description: Virtaal is used to create program translations.
+        
+        It uses the Translate Toolkit to get access to translation files and therefore
+        can edit a variety of files (including PO and XLIFF files).
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Localization
+Classifier: Topic :: Text Processing :: LinguisticOperating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
