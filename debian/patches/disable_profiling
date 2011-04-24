@@ -1,0 +1,20 @@
+Author: Omar Campagne <ocampagne@gmail.com>
+Subject: Disable profiling in packages.
+Description: Profiling does not work with packaged versions.
+.
+The developers offer an easy way to disable its appereance from --help by editing bin/virtaal
+Bug: http://bugs.locamotion.org/show_bug.cgi?id=1861 
+Forwarded: not-needed
+Index: virtaal-debian-snapshots/bin/virtaal
+===================================================================
+--- virtaal-debian-snapshots.orig/bin/virtaal	2011-04-24 19:04:40.000000000 +0200
++++ virtaal-debian-snapshots/bin/virtaal	2011-04-24 19:04:50.000000000 +0200
+@@ -97,7 +97,7 @@
+                         help=_("enable debugging features")),
+         ]
+         # Profiling does not make sense in packaged versions.  Set to True to disable profiling.
+-        packaged = False
++        packaged = True
+         if not packaged:
+             option_list.insert(0, make_option("-P", "--profile", action="store",
+                                               type="string", dest="profile",

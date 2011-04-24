@@ -5,6 +5,7 @@ virtaal (0.6.99+0.7beta5-1) unstable; urgency=low
   * Drop python-central for dh_python2
   * debian/rules: Drop dh_clean -k for dh_prep
   * debian/patches: Refresh patches
+  * debian/patches: Added disable_profiling
 
  -- Omar Campagne <ocampagne@gmail.com>  Sun, 24 Apr 2011 18:48:03 +0200
 
