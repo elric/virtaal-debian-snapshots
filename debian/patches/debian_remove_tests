@@ -1,5 +1,7 @@
---- a/setup.py
-+++ b/setup.py
+Index: virtaal-debian-snapshots/setup.py
+===================================================================
+--- virtaal-debian-snapshots.orig/setup.py	2011-04-24 19:00:15.000000000 +0200
++++ virtaal-debian-snapshots/setup.py	2011-04-24 19:00:15.000000000 +0200
 @@ -103,7 +103,6 @@
          "virtaal.plugins.tm.models",
          "virtaal.support",

@@ -1,6 +1,8 @@
---- a/setup.py
-+++ b/setup.py
-@@ -555,7 +555,7 @@
+Index: virtaal-debian-snapshots/setup.py
+===================================================================
+--- virtaal-debian-snapshots.orig/setup.py	2011-04-24 19:00:14.000000000 +0200
++++ virtaal-debian-snapshots/setup.py	2011-04-24 19:00:15.000000000 +0200
+@@ -572,7 +572,7 @@
              if failed:
                  print 'Failed dependencies: %s' % (', '.join(failed))
                  print 'Use the --nodepcheck option to ignore dependencies.'

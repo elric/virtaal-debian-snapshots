@@ -1,8 +1,10 @@
 Goal: Use the OpenOffice.org autocorrection files, instead of the ones
       distributed by virtaal.
 
---- a/setup.py
-+++ b/setup.py
+Index: virtaal-debian-snapshots/setup.py
+===================================================================
+--- virtaal-debian-snapshots.orig/setup.py	2011-01-04 15:08:50.000000000 +0100
++++ virtaal-debian-snapshots/setup.py	2011-04-24 19:00:14.000000000 +0200
 @@ -82,7 +82,6 @@
  options = {
      'data_files': [
@@ -20,8 +22,10 @@ Goal: Use the OpenOffice.org autocorrection files, instead of the ones
  
  #############################
  # WIN 32 specifics
---- a/virtaal/plugins/autocorrector.py
-+++ b/virtaal/plugins/autocorrector.py
+Index: virtaal-debian-snapshots/virtaal/plugins/autocorrector.py
+===================================================================
+--- virtaal-debian-snapshots.orig/virtaal/plugins/autocorrector.py	2011-01-06 09:22:18.000000000 +0100
++++ virtaal-debian-snapshots/virtaal/plugins/autocorrector.py	2011-04-24 19:00:14.000000000 +0200
 @@ -270,7 +270,7 @@
          self._init_plugin()
  

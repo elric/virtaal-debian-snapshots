@@ -1,7 +1,9 @@
 Goal: Menu icons should be XPM, 32x32
 
---- /dev/null
-+++ b/share/icons/virtaal.xpm
+Index: virtaal-debian-snapshots/share/icons/virtaal.xpm
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ virtaal-debian-snapshots/share/icons/virtaal.xpm	2011-04-24 19:00:14.000000000 +0200
 @@ -0,0 +1,182 @@
 +/* XPM */
 +static char * virtaal_xpm[] = {
