@@ -44,7 +44,7 @@ binary-indep: build install
 	dh_icons
 	dh_compress
 	dh_fixperms
-	dh_pycentral
+	dh_python2
 	dh_installdeb
 	dh_gencontrol
 	dh_md5sums

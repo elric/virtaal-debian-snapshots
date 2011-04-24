@@ -2,6 +2,7 @@ virtaal (0.6.99+0.7beta5-1) unstable; urgency=low
 
   * Non-maintainer upload.
   * Bump translate-toolkit dependency to 1.9.0
+  * Drop python-central for dh_python2
 
  -- Omar Campagne <ocampagne@gmail.com>  Sun, 24 Apr 2011 18:48:03 +0200
 
