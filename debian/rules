@@ -29,7 +29,7 @@ clean: unpatch
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k 
+	dh_prep
 	python setup.py install --nodepcheck --prefix=`pwd`/$(d)/usr
 
 # Build architecture-independent files here.
