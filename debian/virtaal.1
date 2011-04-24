@@ -17,7 +17,7 @@ therefore can edit a variety of files (including PO and XLIFF files).
 
 Automatic completion, spellchecking and correction can be provided by
 installing the
-.B python-gnome2-extras
+.B python-gtkspell
 and
 .B openoffice.org-common
 packages.
@@ -25,17 +25,11 @@ packages.
 .SH OPTIONS
 
 .TP
-\fB\-\-profile\fR=\fIPROFILE\fR
-Perform profiling, storing the result to the supplied filename.
-.TP
 \fB\-\-log\fR=\fILOG\fR
 Turn on logging, storing the result to the supplied filename.
 .TP
 \fB\-\-config\fR=\fICONFIG\fR
 Use the configuration file given by the supplied filename.
-.TP
-\fB\-\-terminology\fR=\fITERMINOLOGY\fR
-Specify a directory containing terminology files
 .TP
 .B \-\-version
 show program's version number and exit
@@ -53,8 +47,17 @@ Continue with the next message.
 .B <Alt+Down>.
 Copy the original string into the target field.
 .TP
-.B <Alt+U>
-Mark the current translation as fuzzy.
+.B <Ctrl+Enter>
+Mark unit with marker
+.B Needs work
+as
+.B Translated
+and go to the next unit.
+.TP
+.B <Ctrl+Enter+Shift>
+Mark unit as
+.B Needs work
+and go to the next unit.
 .TP
 .B <Ctrl+Up>
 .TP
@@ -68,3 +71,5 @@ Move in large steps between translations.
 
 .SH "SEE ALSO"
 http://translate.sourceforge.net/wiki/virtaal/index
+
+http://translate.sourceforge.net/wiki/virtaal/cheatsheet

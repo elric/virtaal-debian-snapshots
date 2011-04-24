@@ -6,6 +6,12 @@ virtaal (0.6.99+0.7beta5-1) unstable; urgency=low
   * debian/rules: Drop dh_clean -k for dh_prep
   * debian/patches: Refresh patches
   * debian/patches: Added disable_profiling
+  * debian/virtaal.1: Delete --profile option info in manpage, disabled
+  * debian/virtaal.1: Delete --terminology option from manpage, nonexistent
+  * debian/virtaal.1: Changing python-gnome2-extras recommendation
+    for spelling function to python-gtkspell
+  * debian/virtaal.1: Change and correct shortcuts according to new upstream
+    version, add link to shortcuts' webpage
 
  -- Omar Campagne <ocampagne@gmail.com>  Sun, 24 Apr 2011 18:48:03 +0200
 
