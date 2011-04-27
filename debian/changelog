@@ -12,6 +12,7 @@ virtaal (0.6.99+0.7beta5-1) unstable; urgency=low
     for spelling function to python-gtkspell
   * debian/virtaal.1: Change and correct shortcuts according to new upstream
     version, add link to shortcuts' webpage
+  * debian/source/format: Declare 3.0 (quilt) format
 
  -- Omar Campagne <ocampagne@gmail.com>  Sun, 24 Apr 2011 18:48:03 +0200
 
