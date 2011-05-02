@@ -2,6 +2,7 @@ virtaal (0.6.99+0.7.0-beta5-1) unstable; urgency=low
 
   * New upstream version.
   * debian/control: Bump translate-toolkit dependency to 1.9.0
+  * debian/control: Standards-Version bumped to 3.9.1. No changes
   * debian/source/format: Declare 3.0 (quilt) format
   * Drop python-central for dh_python2. Closes: #617142
   * debian/rules: Drop dh_clean -k for dh_prep
