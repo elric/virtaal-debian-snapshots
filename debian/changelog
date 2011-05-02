@@ -1,8 +1,9 @@
 virtaal (0.6.99+0.7.0-beta5-1) unstable; urgency=low
 
-  * Non-maintainer upload.
-  * Bump translate-toolkit dependency to 1.9.0
-  * Drop python-central for dh_python2
+  * New upstream version.
+  * debian/control: Bump translate-toolkit dependency to 1.9.0
+  * debian/source/format: Declare 3.0 (quilt) format
+  * Drop python-central for dh_python2. Closes: #617142
   * debian/rules: Drop dh_clean -k for dh_prep
   * debian/patches: Refresh patches
   * debian/patches: Added disable_profiling
@@ -12,7 +13,6 @@ virtaal (0.6.99+0.7.0-beta5-1) unstable; urgency=low
     for spelling function to python-gtkspell
   * debian/virtaal.1: Change and correct shortcuts according to new upstream
     version, add link to shortcuts' webpage
-  * debian/source/format: Declare 3.0 (quilt) format
 
  -- Omar Campagne <ocampagne@gmail.com>  Sun, 24 Apr 2011 18:48:03 +0200
 
