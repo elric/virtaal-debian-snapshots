@@ -6,8 +6,10 @@ virtaal (0.6.99+0.7.0-beta5-1) unstable; urgency=low
   * debian/source/format: Declare 3.0 (quilt) format
   * Drop python-central for dh_python2. Closes: #617142
   * debian/rules: Drop dh_clean -k for dh_prep
+  * debian/rules: Add "include python.mk" line to avoid dh* warning
   * debian/patches: Refresh patches
-  * debian/patches: Added disable_profiling
+  * debian/patches: Added disable_profiling, this option does not
+    work on packaged versions
   * debian/virtaal.1: Delete --profile option info in manpage, disabled
   * debian/virtaal.1: Delete --terminology option from manpage, nonexistent
   * debian/virtaal.1: Changing python-gnome2-extras recommendation

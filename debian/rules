@@ -8,6 +8,7 @@ p	= virtaal
 d	= debian/$(p)
 pv	= $(shell python -c 'import sys; print sys.version[:3]')
 
+include /usr/share/python/python.mk
 include /usr/share/quilt/quilt.make
 
 build: build-stamp
@@ -30,7 +31,7 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_prep
-	python setup.py install --nodepcheck --prefix=`pwd`/$(d)/usr
+	python setup.py install --nodepcheck --prefix=`pwd`/$(d)/usr $(py_setup_install_args)
 
 # Build architecture-independent files here.
 binary-indep: build install
