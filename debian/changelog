@@ -1,6 +1,8 @@
 virtaal (0.6.99+0.7.0-beta5-1) unstable; urgency=low
 
   * New upstream version.
+  * debian/control: Set maintainer to Debian l10n devel group,
+    and add Christian Perrier, Nicolas Françios and myself as uploaders
   * debian/control: Bump translate-toolkit dependency to 1.9.0
   * debian/control: Standards-Version bumped to 3.9.1. No changes
   * debian/source/format: Declare 3.0 (quilt) format
