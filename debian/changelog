@@ -10,6 +10,8 @@ virtaal (0.6.99+0.7.0-beta5-1) unstable; urgency=low
   * debian/rules: Drop dh_clean -k for dh_prep
   * debian/rules: Add "include python.mk" line to avoid dh* warning
   * debian/patches: Refresh patches
+  * debian/patches: Edit and rename debian_openoffice_autocorr_files to use
+    libreoffice's path for autocorecction files.
   * debian/patches: Added disable_profiling, this option does not
     work on packaged versions
   * debian/virtaal.1: Delete --profile option info in manpage, disabled

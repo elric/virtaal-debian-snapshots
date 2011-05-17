@@ -1,0 +1,37 @@
+Goal: Use the OpenOffice.org autocorrection files, instead of the ones
+      distributed by virtaal.
+
+Index: virtaal-debian-snapshots/setup.py
+===================================================================
+--- virtaal-debian-snapshots.orig/setup.py	2011-05-17 21:03:58.000000000 +0200
++++ virtaal-debian-snapshots/setup.py	2011-05-17 21:07:38.000000000 +0200
+@@ -82,7 +82,6 @@
+ options = {
+     'data_files': [
+         (path.join(TARGET_DATA_DIR, "virtaal"), glob(path.join(SOURCE_DATA_DIR, "virtaal", "*.*"))),
+-        (path.join(TARGET_DATA_DIR, "virtaal", "autocorr"), glob(path.join(SOURCE_DATA_DIR, "virtaal", "autocorr", "*"))),
+         (path.join(TARGET_DATA_DIR, "icons"), glob(path.join(SOURCE_DATA_DIR, "icons", "*.*"))),
+     ] + mo_files,
+     'scripts': [
+@@ -135,7 +134,7 @@
+     ['LICENSE', 'maketranslations', path.join('devsupport', 'virtaal_innosetup.bmp')]
+ ]
+ 
+-no_install_dirs = ['po']
++no_install_dirs = ['po', 'share/virtaal/autocorr']
+ 
+ #############################
+ # WIN 32 specifics
+Index: virtaal-debian-snapshots/virtaal/plugins/autocorrector.py
+===================================================================
+--- virtaal-debian-snapshots.orig/virtaal/plugins/autocorrector.py	2011-05-17 21:03:58.000000000 +0200
++++ virtaal-debian-snapshots/virtaal/plugins/autocorrector.py	2011-05-17 21:09:28.000000000 +0200
+@@ -270,7 +270,7 @@
+         self._init_plugin()
+ 
+     def _init_plugin(self):
+-        self.autocorr = AutoCorrector(self.main_controller, acorpath=pan_app.get_abs_data_filename(['virtaal', 'autocorr']))
++        self.autocorr = AutoCorrector(self.main_controller, acorpath="/usr/lib/libreoffice/basis3.3/share/autocorr")
+ 
+         def on_cursor_change(cursor):
+             def add_widgets():
